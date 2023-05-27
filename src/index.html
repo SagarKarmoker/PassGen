@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PassGen by HelloWorld Dev | HelloWorldDev</title>
+</head>
+
+<body class="text-white">
+    <nav class="bg-[#002557] p-2">
+        <h1 class="font-semibold text-2xl text-center">
+            PassGen by HelloWorld Dev
+        </h1>
+    </nav>
+
+    <main>
+        <div class="container rounded-lg bg-cyan-800 p-10 w-fit ml-[35%] mt-[10%]">
+            <div class="flex items-center justify-center">
+                <div class="grid space-y-3">
+                    <h1 class="font-semibold text-center text-2xl">PassGen <span class="font-thin"> - Your Password
+                            Generator</span></h1>
+                    <div class="flex items-center space-x-2">
+                        <textarea name="" id="" cols="30" rows="1"
+                            class="rounded-lg p-2 text-black flex-grow"></textarea>
+                        <button class="bg-green-500 rounded-lg p-2 pr-3 pl-3"><i
+                                class="fa-regular fa-clipboard"></i></button>
+                        <button class="bg-red-500 rounded-lg p-2 pr-3 pl-3"><i class="fa-solid fa-repeat"></i></button>
+                    </div>
+                    <div class="flex justify-center space-x-2">
+                        <label for="" class="mt-1 font-semibold">Length</label>
+                        <select name="" id="" class="text-black rounded-lg p-1.5 text-center w-[50%]">
+                            <option value="8">8</option>
+                            <option value="16">16</option>
+                            <option value="32">32</option>
+                            <option value="48">48</option>
+                        </select>
+                    </div>
+                    <div class="flex space-x-2">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Uppercase</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Lowercase</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Special</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <label for="">Number</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h1 class="text-center mt-4">Copyright &#169; 2023 HelloWorld Dev Software</h1>
+    </footer>
+
+</body>
+
+</html>
