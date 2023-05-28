@@ -1,6 +1,6 @@
 # PassGen by HelloWorld Dev 
 Project Link: https://passgen.helloworlddev.software/
-PassGen is a simple and secure password generator built with Python. It allows you to easily generate strong passwords that are difficult to crack.
+PassGen is a simple and secure password generator built with Javascript. It allows you to easily generate strong passwords that are difficult to crack.
 
 
 
